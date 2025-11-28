@@ -64,19 +64,19 @@
 
   <div class="flex justify-center gap-4 mt-4">
     <button on:click={() => showDay(3)} class="bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30">
-      The affter after after tomorrow
+      2
     </button>
     <button on:click={() => showDay(2)} class="bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30">
-      The day after after tomorrow
+      1
     </button>
     <button on:click={() => showDay(1)} class="bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30">
-      The day after tomorrow
+      30
     </button>
     <button on:click={() => showDay(0)} class="bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30">
-      Tomorrow
+      29
     </button>
     <button on:click={() => showDay(-1)} class="bg-white/20 px-4 py-2 rounded-lg hover:bg-white/30">
-      today
+      28
     </button>
     
   </div>
